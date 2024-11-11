@@ -11,7 +11,7 @@
 	<groupId>com.grupobnc.itx</groupId>
 	<artifactId>checkprices</artifactId>
 	<version>1.0.0</version>
-	<name>checkprices</name>
+	<name>Final Prices</name>
 	<description>it allows to apply rate  give a date</description>
 	<url/>
 	<licenses>
@@ -50,7 +50,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 
 		<dependency>
 			<groupId>org.webjars</groupId>

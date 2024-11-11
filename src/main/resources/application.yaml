@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: checkprices
+  datasource:
+    url: jdbc:h2:mem:pricesdb
+    driver-class-name: org.h2.Driver
+    username: bncgroup
+    password: e
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+
+
+
+
+
+
